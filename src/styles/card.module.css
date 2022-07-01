@@ -1,0 +1,42 @@
+.card {
+  max-width: 300px;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--light);
+  overflow: hidden;
+}
+
+.card_header {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.heading {
+  font-weight: 600;
+  margin: 8px;
+  color: var(--primary);
+}
+.date {
+  opacity: 0.9;
+  font-size: small;
+  margin-left: 8px;
+}
+
+.note {
+  font-size: 0.95em;
+  margin: 8px;
+}
+  
+.card_footer {
+  border-top: 1px solid var(--primary);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
